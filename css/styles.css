@@ -53,7 +53,9 @@ header {
 .menu {
   list-style: none;
   display: flex;
+  margin-top: 0;
   column-gap: 40px;
+  padding: 0;
 }
 .menu-item {
   font-size: 16px;
@@ -78,6 +80,8 @@ header {
   list-style: none;
   display: flex;
   column-gap: 40px;
+  margin-right: 156px;
+  margin-top: 24px;
 }
 .contacts-item {
   font-family: "Roboto";
@@ -162,6 +166,8 @@ header {
   column-gap: 24px;
   row-gap: 48px;
   display: flex;
+  margin-bottom: 120px;
+  justify-content: center;
 }
 .card-name {
   padding-left: 16px;
@@ -233,8 +239,8 @@ h1 {
 }
 /* second-section */
 .second-section {
-  margin-top: 120px;
-  margin-left: 156px;
+  padding-top: 120px;
+  justify-content: center;
 }
 
 .second-section-item {
@@ -245,8 +251,9 @@ h1 {
 /* third-section */
 .third-section {
   margin-top: 120px;
-  margin-left: 156px;
+
   margin-bottom: 120px;
+  justify-content: center;
 }
 
 .third-section-name {
@@ -355,6 +362,7 @@ footer {
   flex-wrap: wrap;
   column-gap: 24px;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .section-text-item {
