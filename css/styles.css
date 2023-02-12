@@ -121,8 +121,9 @@ header {
   justify-content: center;
   display: flex;
   column-gap: 24px;
-  padding: 96px 0 72px 0;
-  margin: 0;
+  padding: 96px 0 0 0;
+
+  margin: 0 0 72px 0;
 }
 .navigation-button {
   font-size: 16px;
@@ -406,7 +407,7 @@ footer {
   color: #434455;
 }
 .active {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
