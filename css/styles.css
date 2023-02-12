@@ -124,8 +124,8 @@ header {
   justify-content: center;
   display: flex;
   column-gap: 24px;
-  padding-left: 0;
-  margin: 96px 0 72px 0;
+  padding: 96px 0 72px 0;
+  margin: 0;
 }
 .navigation-button {
   font-size: 16px;
@@ -176,10 +176,10 @@ header {
   column-gap: 24px;
   row-gap: 48px;
   display: flex;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
   justify-content: center;
   padding-left: 0;
-  margin-top: 0;
+  margin: 0;
 }
 .card-name {
   padding-left: 16px;
@@ -199,12 +199,14 @@ header {
   flex-direction: column;
   align-items: center;
   row-gap: 48px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 h1 {
   font-family: "Roboto";
   font-size: 56px;
   line-height: 1.07;
-  padding-top: 188px;
+
   margin: 0;
   letter-spacing: 0.02em;
 
@@ -231,7 +233,6 @@ h1 {
 
   cursor: pointer;
   border: 0;
-  margin-bottom: 188px;
 }
 .first-section-button:hover {
   font-family: inherit;
@@ -250,8 +251,8 @@ h1 {
 }
 /* second-section */
 .second-section {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   justify-content: center;
 }
 
@@ -267,7 +268,7 @@ h1 {
 /* third-section */
 .third-section {
   justify-content: center;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .third-section-name {
@@ -330,13 +331,14 @@ h1 {
 /* footer */
 footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-left: 156px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding-top: 100px;
-  padding-left: 156px;
 }
 .footer-logo-firstpart {
   width: 44px;
@@ -370,8 +372,6 @@ footer {
   line-height: 24px;
   flex-wrap: wrap;
   width: 264px;
-  padding-left: 156px;
-  padding-bottom: 100px;
 
   letter-spacing: 0.02em;
   margin: 16px 0 0 0;
