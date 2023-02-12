@@ -8,15 +8,14 @@ body {
 
   background: #ffffff;
 }
-/* .container {
-  width: 1128px;
-}  */
+.container {
+  width: 1440px;
+}
 /* header */
 header {
-  height: 72px;
   display: flex;
-  justify-content: space-between;
-  width: 1440px;
+  gap: 332px;
+  padding: 24px 0 24px 156px;
 
   border-bottom: 1px solid #e7e9fc;
 }
@@ -27,9 +26,7 @@ header {
 /* logo */
 .logo {
   display: flex;
-  padding-left: 156px;
 
-  padding-top: 24px;
   width: 115px;
   height: 24px;
 }
@@ -65,7 +62,6 @@ header {
 
   padding: 0;
   margin: 0;
-  padding-top: 24px;
 }
 .menu-item {
   font-size: 16px;
@@ -90,7 +86,8 @@ header {
   list-style: none;
   display: flex;
   column-gap: 40px;
-  padding: 24px 156px 0 0;
+  padding: 0;
+
   margin: 0;
 }
 .contacts-item {
@@ -170,7 +167,6 @@ header {
   list-style: none;
 }
 .main-general-list {
-  width: 1440px;
   list-style: none;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -293,13 +289,13 @@ h1 {
 .fourth-section {
   background: #f4f4fd;
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 .fourth-section-name {
   font-family: "Roboto";
   font-style: normal;
   font-size: 36px;
   line-height: 1.11;
-  padding-top: 120px;
 
   text-align: center;
 
@@ -319,21 +315,21 @@ h1 {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+
+  padding-bottom: 32px;
 }
 .fourth-section-item-name {
   margin: 32px 0 8px 0;
 }
 .fourth-section-item-text {
   margin: 0;
-  padding-bottom: 32px;
 }
 
 /* footer */
 footer {
   background: #2e2f42;
-  padding-top: 100px;
-  padding-left: 156px;
-  padding-bottom: 100px;
+
+  padding: 100px 1020px 100px 156px;
 }
 .footer-logo {
   display: flex;
@@ -369,7 +365,7 @@ footer {
 .footer-text {
   font-family: "Roboto";
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   flex-wrap: wrap;
   width: 264px;
 
