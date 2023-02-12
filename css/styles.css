@@ -22,13 +22,16 @@ header {
 }
 .header-navigation {
   display: flex;
+  gap: 76px;
 }
 /* logo */
 .logo {
   display: flex;
   padding-left: 156px;
-  padding-right: 76px;
+
   padding-top: 24px;
+  width: 115px;
+  height: 24px;
 }
 .logo-firstpart {
   font-weight: 800;
@@ -55,8 +58,11 @@ header {
 .menu {
   list-style: none;
   display: flex;
-  margin-top: 0;
-  column-gap: 40px;
+  width: 261px;
+  height: 24px;
+
+  gap: 40px;
+
   padding: 0;
   margin: 0;
   padding-top: 24px;
@@ -84,8 +90,7 @@ header {
   list-style: none;
   display: flex;
   column-gap: 40px;
-  padding-right: 156px;
-  padding-top: 24px;
+  padding: 24px 156px 0 0;
   margin: 0;
 }
 .contacts-item {
@@ -119,10 +124,8 @@ header {
   justify-content: center;
   display: flex;
   column-gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
   padding-left: 0;
-  margin: 0;
+  margin: 96px 0 72px 0;
 }
 .navigation-button {
   font-size: 16px;
@@ -173,16 +176,15 @@ header {
   column-gap: 24px;
   row-gap: 48px;
   display: flex;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
   justify-content: center;
-  margin: 0;
   padding-left: 0;
+  margin-top: 0;
 }
 .card-name {
   padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 8px;
-  margin: 0;
+
+  margin: 32px 0 8px 0;
 }
 .card-text {
   padding-left: 16px;
@@ -226,7 +228,9 @@ h1 {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
   cursor: pointer;
+  border: 0;
   margin-bottom: 188px;
 }
 .first-section-button:hover {
@@ -241,12 +245,13 @@ h1 {
   color: #ffffff;
 
   background: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   border-radius: 4px;
 }
 /* second-section */
 .second-section {
-  padding-top: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
   justify-content: center;
 }
 
@@ -261,10 +266,8 @@ h1 {
 
 /* third-section */
 .third-section {
-  padding-top: 120px;
-
-  padding-bottom: 120px;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 .third-section-name {
@@ -274,27 +277,32 @@ h1 {
   line-height: 1.11;
 
   margin: 0;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 
   text-align: center;
 
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.third-section-item {
+  width: 360px;
+  height: 300px;
+}
 
 .fourth-section {
   background: #f4f4fd;
+  padding-bottom: 120px;
 }
 .fourth-section-name {
   font-family: "Roboto";
   font-style: normal;
   font-size: 36px;
   line-height: 1.11;
+  padding-top: 120px;
 
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
-  margin: 0;
+
+  margin: 0 0 72px 0;
 
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -310,12 +318,9 @@ h1 {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 120px;
 }
 .fourth-section-item-name {
-  padding-top: 32px;
-  padding-bottom: 8px;
-  margin: 0;
+  margin: 32px 0 8px 0;
 }
 .fourth-section-item-text {
   margin: 0;
@@ -367,10 +372,9 @@ footer {
   width: 264px;
   padding-left: 156px;
   padding-bottom: 100px;
-  padding-top: 16px;
 
   letter-spacing: 0.02em;
-  margin: 0;
+  margin: 16px 0 0 0;
 
   color: #e7e9fc;
 }
