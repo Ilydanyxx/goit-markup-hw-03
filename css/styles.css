@@ -22,13 +22,13 @@ header {
 }
 .header-navigation {
   display: flex;
-  padding-top: 24px;
 }
 /* logo */
 .logo {
   display: flex;
   padding-left: 156px;
   padding-right: 76px;
+  padding-top: 24px;
 }
 .logo-firstpart {
   font-weight: 800;
@@ -59,6 +59,7 @@ header {
   column-gap: 40px;
   padding: 0;
   margin: 0;
+  padding-top: 24px;
 }
 .menu-item {
   font-size: 16px;
